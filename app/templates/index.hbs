@@ -1,0 +1,17 @@
+<h2>Quetion on air</h2>
+
+
+<ul>
+  {{#each model as |question|}}
+     <li>{{question.author}}</l1>
+    <l1> and my question is {{question.question}}</li>
+  {{/each}}
+</ul>
+
+
+
+
+
+{{#link-to 'about'}}About{{/link-to}}
+
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
